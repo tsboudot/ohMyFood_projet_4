@@ -19,7 +19,7 @@ body, .fonctionnement button {
   font-family: "Roboto", sans-serif;
 }
 
-.logo {
+footer h1, .logo {
   font-family: "Shrikhand", sans-serif;
 }
 
@@ -27,7 +27,11 @@ body, .fonctionnement button {
   font-weight: 300;
 }
 
-.fonctionnement button, .explor .buttonPink, .localisation {
+footer h1 {
+  font-weight: 400;
+}
+
+footer h4, .fonctionnement button, .explor .buttonPink, .localisation {
   font-weight: 500;
 }
 
@@ -35,12 +39,16 @@ body, .fonctionnement button {
   font-weight: 700;
 }
 
-.fonctionnement button, .explor .buttonPink {
+footer h4, .fonctionnement button, .explor .buttonPink {
   font-size: 16px;
 }
 
 .Restaurants h2, .fonctionnement h2, .explor h2 {
   font-size: 24px;
+}
+
+footer h1 {
+  font-size: 30px;
 }
 
 .logo {
@@ -143,6 +151,20 @@ h1 {
   text-align: start;
   justify-content: flex-start;
   margin-left: 3%;
+}
+
+footer {
+  background-color: #353535;
+  color: white;
+  padding-left: 3%;
+  margin: 0;
+}
+footer h4 {
+  line-height: 2.5em;
+  margin: 5px 0px 0px 0px;
+}
+footer .smallIc {
+  margin-right: 10px;
 }
 
 body {
