@@ -11,6 +11,8 @@ body{
 .logo{
     @extend %shriklands;
     @extend %flex-center;
+    @extend %width100;
+    position: relative;
     height: 50px;
     font-weight: 00;
     font-size: 30px;
@@ -18,7 +20,14 @@ body{
 }
 .localisation{
     @extend %fontW500;
+    @extend %text-center;
+    @extend %width100;
     background-color: $grey;
     color: $darkGrey;
-
+    height: 30px;
+    justify-content: center;
+    padding-top: 10px;
+}
+.smallIc{
+margin-right: 5px;
 }

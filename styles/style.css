@@ -8,6 +8,14 @@
   align-items: center;
 }
 
+.localisation {
+  text-align: center;
+}
+
+.localisation, .logo {
+  width: 100%;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -27,6 +35,7 @@ body {
 }
 
 .logo {
+  position: relative;
   height: 50px;
   font-weight: 0;
   font-size: 30px;
@@ -36,4 +45,11 @@ body {
 .localisation {
   background-color: #EAEAEA;
   color: #353535;
+  height: 30px;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.smallIc {
+  margin-right: 5px;
 }/*# sourceMappingURL=style.css.map */
