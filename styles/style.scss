@@ -1,33 +1,19 @@
 @import "./utils/variables";
 @import "./utils/mixins";
-@import "./utils/placeHolders"; 
+@import "./utils/placeHolders";
+@import "./components/butons";
+@import "./layouts/header";
+@import "./layouts/research";
+@import"./layouts/fonctionnement";
+@import "./components/cartes";
+@import "./layouts/restaurants";
+
+
 body{
     background-color: $white;
     margin: 0 auto;
-    @extend %flex-center;
     @extend %roboto;
     flex-direction: column;
 }
-.logo{
-    @extend %shriklands;
-    @extend %flex-center;
-    @extend %width100;
-    position: relative;
-    height: 50px;
-    font-weight: 00;
-    font-size: 30px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-}
-.localisation{
-    @extend %fontW500;
-    @extend %text-center;
-    @extend %width100;
-    background-color: $grey;
-    color: $darkGrey;
-    height: 30px;
-    justify-content: center;
-    padding-top: 10px;
-}
-.smallIc{
-margin-right: 5px;
-}
+
+

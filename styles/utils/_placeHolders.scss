@@ -10,6 +10,9 @@
 %text-center{
     text-align: center;
 }
+%margin-auto{
+    margin: autos;
+}
 %width100{
     width: 100%
 }
@@ -20,6 +23,24 @@
 %shriklands{
     font-family: 'Shrikhand', sans-serif;
 }
+%fontW300 {
+    font-weight: 300;
+}
 %fontW500 {
     font-weight: 500;
+}
+
+%fontW700{
+    font-weight: 700;
+}
+%fontS16{
+    font-size: 16px;
+}
+
+%fontS18{
+    font-size: 18px;
+}
+
+%fontS24{
+    font-size: 24px;
 }

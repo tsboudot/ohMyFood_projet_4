@@ -1,0 +1,15 @@
+.Restaurants
+{
+    @extend %width100;
+    display: flex;
+    flex-direction: column;
+    background-color: $lightGrey;
+    h2
+    {
+        @extend %fontS24;
+        @extend %fontW700;
+        text-align: start;
+        justify-content: flex-start;
+        margin-left: 3%;
+    }
+}
