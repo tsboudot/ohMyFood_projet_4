@@ -98,6 +98,7 @@ h1 {
 .fonctionnement {
   display: flex;
   flex-direction: column;
+  margin-bottom: 25px;
 }
 .fonctionnement h2 {
   text-align: start;
@@ -133,13 +134,26 @@ h1 {
      object-fit: cover;
   border-radius: 15px 15px 0px 0px;
 }
-.carteRestaurant .container p {
+
+.restauCarteContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.restauCarteContainer .infosRestau {
+  width: 75%;
+}
+.restauCarteContainer .infosRestau p {
   margin: 10px 0px 0px 5px;
   line-height: 1em;
 }
-.carteRestaurant .container h4 {
+.restauCarteContainer .infosRestau h4 {
   line-height: 1em;
   margin: 10px 0px 5px 5px;
+}
+.restauCarteContainer .heartIc {
+  margin-right: 15px;
 }
 
 .Restaurants {
@@ -159,12 +173,30 @@ footer {
   padding-left: 3%;
   margin: 0;
 }
+footer h1 {
+  margin: 0;
+}
 footer h4 {
   line-height: 2.5em;
   margin: 5px 0px 0px 0px;
 }
 footer .smallIc {
   margin-right: 10px;
+}
+
+.fa-heart {
+  border-radius: 50%;
+  padding: 0.2em;
+}
+
+.fa-heart::before {
+  font-weight: bold;
+  transition: color 1.5s ease-in-out;
+}
+
+.fa-heart:hover::before {
+  color: red;
+  cursor: pointer;
 }
 
 body {

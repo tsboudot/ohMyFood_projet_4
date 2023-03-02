@@ -13,8 +13,16 @@
         object-fit: cover;
         border-radius: 15px 15px 0px 0px;
     }
-    .container{
-
+}
+    
+.restauCarteContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        
+        .infosRestau{
+        width: 75%;
     p {
         margin: 10px 0px 0px 5px;
         line-height: 1em;
@@ -23,5 +31,8 @@
         line-height: 1em;
         margin: 10px 0px 5px 5px;        
         }
-}
+    }
+        .heartIc{
+            margin-right: 15px;
+        }
 }

@@ -1,0 +1,12 @@
+.fa-heart {
+    border-radius: 50%;
+    padding:.2em;
+}
+.fa-heart::before {
+    font-weight: bold;
+    transition: color 1.5s ease-in-out;
+}
+.fa-heart:hover::before{
+    color: red;
+    cursor: pointer;
+}
