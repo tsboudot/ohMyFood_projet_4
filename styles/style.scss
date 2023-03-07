@@ -9,7 +9,8 @@
 @import "./layouts/restaurants";
 @import "./layouts/footer";
 @import "./components/animations.scss";
-
+@import "./components/puce";
+@import "./components/nouveaute";
 body{
     background-color: $white;
     margin: 0 auto;

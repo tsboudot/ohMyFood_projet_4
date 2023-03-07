@@ -11,22 +11,9 @@
         justify-content: flex-start;
         margin-left: 3%;
     }
-    button
-    {
-        @extend %roboto;
-        @extend %fontW500;
-        @extend %fontS16;
-        margin: 5px 9%;
-        border-radius: 25px;
-        height: 72px;
-        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-        text-align: start;
-        padding-left: 10%;
-        background-color: $lightGrey;
-        border: none;
-    }
     i{
         margin-right: 15%;
     }
     margin-bottom: 25px;
+    padding: 5px;
 }

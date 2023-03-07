@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.explor, .localisation {
+.nouveaute, .explor, .localisation {
   text-align: center;
 }
 
@@ -31,7 +31,7 @@ footer h1 {
   font-weight: 400;
 }
 
-footer h4, .fonctionnement button, .explor .buttonPink, .localisation {
+.nouveaute, footer h4, .localisation, .buttonPink, .fonctionnement button {
   font-weight: 500;
 }
 
@@ -39,7 +39,11 @@ footer h4, .fonctionnement button, .explor .buttonPink, .localisation {
   font-weight: 700;
 }
 
-footer h4, .fonctionnement button, .explor .buttonPink {
+.nouveaute {
+  font-size: 14px;
+}
+
+footer h4, .buttonPink, .fonctionnement button {
   font-size: 16px;
 }
 
@@ -49,6 +53,31 @@ footer h4, .fonctionnement button, .explor .buttonPink {
 
 footer h1 {
   font-size: 30px;
+}
+
+.fonctionnement button {
+  border-radius: 25px;
+  height: 72px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  text-align: start;
+  padding-left: 10%;
+  background-color: #F7F7F7;
+  border: none;
+  width: 100%;
+  max-width: 850px;
+  margin: 5px;
+  position: relative;
+  transition: background-color 250ms;
+}
+
+.buttonPink {
+  width: 65%;
+  background-image: linear-gradient(to top, #9356DC, #FF79DA);
+  color: white;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
 
 .logo {
@@ -85,35 +114,17 @@ h1 {
   margin: 0;
   padding: 5% 5%;
 }
-.explor .buttonPink {
-  width: 65%;
-  background-image: linear-gradient(to top, #9356DC, #FF79DA);
-  color: white;
-  height: 50px;
-  border-radius: 25px;
-  border: none;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-}
 
 .fonctionnement {
   display: flex;
   flex-direction: column;
   margin-bottom: 25px;
+  padding: 5px;
 }
 .fonctionnement h2 {
   text-align: start;
   justify-content: flex-start;
   margin-left: 3%;
-}
-.fonctionnement button {
-  margin: 5px 9%;
-  border-radius: 25px;
-  height: 72px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-  text-align: start;
-  padding-left: 10%;
-  background-color: #F7F7F7;
-  border: none;
 }
 .fonctionnement i {
   margin-right: 15%;
@@ -126,6 +137,7 @@ h1 {
   margin: 5% auto;
   border: solid 1px #F7F7F7;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  position: relative;
 }
 .carteRestaurant img {
   width: 100%;
@@ -184,19 +196,54 @@ footer .smallIc {
   margin-right: 10px;
 }
 
-.fa-heart {
-  border-radius: 50%;
-  padding: 0.2em;
+span .fa-solid {
+  color: transparent;
+  background-image: linear-gradient(to top, #9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 0;
+}
+span .fa-solid:active {
+  opacity: 1;
 }
 
-.fa-heart::before {
-  font-weight: bold;
-  transition: color 1.5s ease-in-out;
+@media screen and (min-width: 992px) {
+  span .fa-solid:hover {
+    opacity: 1;
+  }
+}
+.fonctionnement button:hover {
+  background-color: rgba(147, 86, 220, 0.3764705882);
+  color: #9356DC;
 }
 
-.fa-heart:hover::before {
-  color: red;
-  cursor: pointer;
+.buttonPink:hover {
+  box-shadow: 0px 7px 11px rgba(0, 0, 0, 0.15);
+  opacity: 0.8;
+}
+
+.puce {
+  background-color: #9356DC;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  top: 19px;
+  left: -14px;
+  border-radius: 25px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+}
+
+.nouveaute {
+  background-color: #99E2D0;
+  color: #008766;
+  position: absolute;
+  top: 19px;
+  left: 69%;
+  width: 75px;
+  height: 18px;
 }
 
 body {

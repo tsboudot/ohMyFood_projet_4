@@ -1,0 +1,13 @@
+.nouveaute
+{
+    background-color: $green;
+    color: $greenFont;
+    @extend %fontW500;
+    @extend %fontS14;
+    @extend %text-center;
+    position: absolute;
+    top: 19px;
+    left: 69%;
+    width: 75px;
+    height: 18px;
+}
