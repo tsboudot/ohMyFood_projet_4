@@ -14,6 +14,9 @@
 @import "./components/media_Q/_media_Q";
 @import "./layouts/media_Q/_media_Q";
 @import"./components/logo";
+@import "./layouts/menu-Restaurant";
+@import "./components/dish-card";
+@import "./components/dish_animations";
 
 body{
     background-color: $white;

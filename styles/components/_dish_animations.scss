@@ -1,0 +1,6 @@
+.dish-anim{
+    transform-origin: 0% 50%;
+    &:hover{
+        transform: scaleX(0.85);
+}
+}
