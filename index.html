@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="https://kit.fontawesome.com/0601797f3e.js" crossorigin="anonymous"></script>
 
@@ -12,8 +13,8 @@
 </head>
 <body>
     <header>
-        <div class="logo"><h1>ohmyfood</h1></div>
-        <div class ="localisation"><i class="fa-solid fa-location-dot smallIc"></i>Paris, Belleville</div>
+      <img src="./images/logo/ohmyfood.png" alt="logo" class="headerLogo logo">
+        <div class ="localisation"><i class="fa-solid fa-location-dot smallIc"></i><input type="search" placeholder="Paris, Belleville"></div></div>
         <div class="explor">
             <h2>Réservez le menu qui vous convient</h2>
             <p>Découvrez des restaurants d'exeption, selectionnés par nos soins</p>
@@ -23,12 +24,14 @@
     <main>
         <div class="fonctionnement">
             <h2>Fonctionnement</h2>
+            <div class="fonctionnement-container">
             <button><div class="puce">1</div><i class="fa-solid fa-mobile-screen"></i>Choisissez un restaurant</button>
             <button><div class="puce">2</div><i class="fa-solid fa-list"></i>Composez votre menu</button>
             <button><div class="puce">3</div><i class="fa-solid fa-shop"></i>Dégustez au restaurant </button>
-        </div>
+          </div></div>
         <section><div class="Restaurants">
             <h2>Restaurants</h2>
+            <div class="restauContainer" id="RSTConainer">
             <div class="carteRestaurant"> <div class="nouveaute">Nouveauté</div> <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="laPalettedugout">
                 <div class="restauCarteContainer">
                     <div class="infosRestau">
@@ -60,16 +63,15 @@
                               <p>Folie-Méricourt</p>
                             </div><span class ="fa-stack heartIc"><i class="fa-regular fa-heart fa-stack-2x"></i><i class="fa-solid fa-heart fa-stack-2x"></i>
                             </span>
-                          </div></div>
+                          </div></div></div>
         </div></section>
     </main>
     <footer>
-        <h1>ohmyfood</h1>
-        <h4> <i class="fa-solid fa-utensils smallIc"></i>Proposer un restaurant</h4>
-        <h4> <i class="fa-solid fa-handshake-angle smallIc"></i>Devenir partenaire</h4>
-        <h4>Mensions légales</h4>
-        <h4>Contact</h4>
-    
+        <img src="./images/logo/ohmyfood.png" alt="logo" class="footerLogo">
+        <nav><div><h4> <i class="fa-solid fa-utensils smallIc"></i>Proposer un restaurant</h4></div>
+        <div><h4> <i class="fa-solid fa-handshake-angle smallIc"></i>Devenir partenaire</h4></div>
+        <div><h4>Mensions légales</h4></div>
+        <div><h4>Contact</h4></div></nav>
     </footer>
 </body>
 </html>
