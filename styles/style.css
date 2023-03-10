@@ -138,7 +138,10 @@ input {
 .fonctionnement {
   display: flex;
   flex-direction: column;
-  margin-bottom: 25px;
+  background-color: white;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+  padding-bottom: 35px;
   padding: 3% px;
 }
 .fonctionnement h2 {
@@ -201,6 +204,9 @@ input {
   display: flex;
   flex-direction: column;
   background-color: #F7F7F7;
+  padding-bottom: 1%;
+  height: 350px;
+  height: 29%;
 }
 .Restaurants h2 {
   text-align: start;
@@ -220,15 +226,12 @@ footer {
   padding-left: 3%;
   margin: 0;
 }
-footer h1 {
-  margin: 0;
-}
 footer h4 {
   line-height: 2.5em;
   margin: 5px 0px 0px 0px;
 }
 footer .smallIc {
-  margin-right: 10px;
+  margin-right: 2px;
 }
 
 span .fa-solid {
@@ -276,8 +279,9 @@ span .fa-solid:active {
   color: #008766;
   position: absolute;
   top: 19px;
-  left: 69%;
-  width: 75px;
+  left: 65%;
+  width: 73px;
+  max-width: 33%;
   height: 18px;
 }
 
@@ -307,27 +311,28 @@ span .fa-solid:active {
   #RSTConainer {
     flex-direction: row;
     justify-content: center;
-    padding-right: 25px;
-    height: 480px;
+    height: 90%;
+    max-height: 450px;
   }
   footer {
     flex-direction: row;
     height: 114px;
-    position: relative;
+    width: 100%;
+    justify-content: flex-end;
   }
-  footer .footerLogo {
-    position: absolute;
-    top: 10px;
-    left: 80%;
-    margin-top: 10px;
-  }
-  footer h4 {
-    margin: 21px 25px;
+  footer h1 {
+    order: 2;
+    margin-right: 85px;
   }
   nav {
     display: flex;
     flex-direction: row;
-    margin-left: 7%;
+    justify-content: space-between;
+    margin-right: 70px;
+    margin-top: 20px;
+    width: 45%;
+    max-width: 850px;
+    min-width: 600px;
   }
 }
 .headerLogo {
@@ -336,14 +341,6 @@ span .fa-solid:active {
   margin: auto;
   padding-top: 5px;
   padding-bottom: 5px;
-}
-
-.footerLogo {
-  width: 162px;
-  height: 39px;
-  margin: auto;
-  padding-bottom: 5px;
-  color: white;
 }
 
 .menu {
@@ -417,4 +414,8 @@ body {
   flex-direction: column;
   width: 100%;
   height: 100%;
+}
+
+main {
+  min-height: 63vh;
 }/*# sourceMappingURL=style.css.map */

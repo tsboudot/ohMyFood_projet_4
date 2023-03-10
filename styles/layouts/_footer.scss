@@ -9,7 +9,6 @@ footer{
         @extend %fontW400;
         @extend %fontS30;
         @extend %shriklands;
-        margin: 0;
     }
     h4{
         @extend %fontW500;
@@ -18,6 +17,6 @@ footer{
         margin: 5px 0px 0px 0px;
     }
     .smallIc{
-        margin-right: 10px;
+        margin-right: 2px;
     }
 }
